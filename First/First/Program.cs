@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace First
 {
-    internal class Program
+    internal class Program //Main class
     {
-        static void Main(string[] args)
+        static void Main(string[] args) //Main method
         {
+            Console.Write("Hello world");
+            Console.ReadKey();
+
         }
     }
 }
