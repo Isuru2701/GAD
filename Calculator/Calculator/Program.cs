@@ -11,7 +11,6 @@ namespace Calculator
         static void Main(string[] args)
         {
             double num1, num2;
-            string op;
             Console.WriteLine("Console Calculator");
             Console.WriteLine("-------------------");
             Console.WriteLine("Enter a number: ");
@@ -42,8 +41,8 @@ namespace Calculator
             bool flag = true;
             do
             {
-                op = Console.ReadLine();
-                switch (op)
+                
+                switch (Console.ReadLine().ToLower())
                 {
                     case "a":
                         Console.WriteLine("Addition of the 2 numbers: " + (num1 + num2));
