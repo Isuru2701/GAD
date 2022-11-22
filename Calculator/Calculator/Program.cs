@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Calculator
 {
@@ -14,12 +10,14 @@ namespace Calculator
             Console.WriteLine("Console Calculator");
             Console.WriteLine("-------------------");
             Console.WriteLine("Enter a number: ");
-            do {
+            do
+            {
                 try
                 {
                     num1 = Convert.ToDouble(Console.ReadLine());
                     break;
-                } catch (Exception)
+                }
+                catch (Exception)
                 {
                     Console.WriteLine("please enter a number only");
                 }
@@ -41,7 +39,7 @@ namespace Calculator
             bool flag = true;
             do
             {
-                
+
                 switch (Console.ReadLine().ToLower())
                 {
                     case "a":
@@ -51,17 +49,17 @@ namespace Calculator
 
                     case "s":
                         Console.WriteLine("Substraction of the 2 numbers: " + (num1 - num2));
-                        flag = false;   
+                        flag = false;
                         break;
 
                     case "m":
                         Console.WriteLine("Multiplication of the 2 numbers: " + (num1 * num2));
-                        flag = false;   
+                        flag = false;
                         break;
 
                     case "d":
                         Console.WriteLine("Division of the 2 numbers: " + (num1 / num2));
-                           flag = false;
+                        flag = false;
                         break;
                     default:
                         Console.WriteLine("Error: incorrect code for operator");
@@ -69,6 +67,8 @@ namespace Calculator
                 };
             } while (flag);
             Console.ReadKey();
+            //commit test 123
+
 
 
 
