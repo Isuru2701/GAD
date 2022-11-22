@@ -1,0 +1,8 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\bin\Debug\Encapsulation.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\bin\Debug\Encapsulation.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\bin\Debug\Encapsulation.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\obj\Debug\Encapsulation.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\obj\Debug\Encapsulation.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\obj\Debug\Encapsulation.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\obj\Debug\Encapsulation.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\Encapsulation\Encapsulation\obj\Debug\Encapsulation.pdb
