@@ -9,7 +9,7 @@ namespace Inheritance
     class Father
     {
         public string house = "two-storey";
-        public string car = "sedan";
+        protected string car = "a sedan";
         string designation = "Director";
 
     }
@@ -25,8 +25,13 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
+            Father  father = new Father();
+            Console.WriteLine("House attribute is visible outside the class: " + father.house);
             Child child = new Child();
+            Console.WriteLine("House attribute is visible outside the class: " + child.house);
+
             child.display();
+            Console.ReadKey();
         }
     }
 }

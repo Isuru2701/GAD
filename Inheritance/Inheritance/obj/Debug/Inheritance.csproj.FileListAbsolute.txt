@@ -1,0 +1,8 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\bin\Debug\Inheritance.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\bin\Debug\Inheritance.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\bin\Debug\Inheritance.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\obj\Debug\Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\obj\Debug\Inheritance.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\Inheritance\Inheritance\obj\Debug\Inheritance.pdb
