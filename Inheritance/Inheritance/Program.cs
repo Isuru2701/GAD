@@ -16,21 +16,22 @@ namespace Inheritance
 
     class Child : Father //inheritance
     {
-        public void display()
+        public void drive()
         {
             Console.WriteLine("This is my car: " + car);
         }
     }
     internal class Program
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             Father  father = new Father();
-            Console.WriteLine("House attribute is visible outside the class: " + father.house);
-            Child child = new Child();
-            Console.WriteLine("House attribute is visible outside the class: " + child.house);
+            Console.WriteLine("House attribute is visible outside the class from father: " + father.house);
 
-            child.display();
+            Child child = new Child();
+            Console.WriteLine("House attribute is visible outside the class from child: " + child.house);
+
+            child.drive();
             Console.ReadKey();
         }
     }

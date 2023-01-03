@@ -53,13 +53,13 @@ namespace InheritancePractice
         }
     }
 
-    class Program
-    {
-        static void Main(String[] args)
-        {
-            Book book = new Book("Song of Ice and Fire", "Gerorge R R Martin", 097235973);
-            book.DisplayDetails();
-            Console.ReadKey();
-        }
-    }
+//    class Program
+//    {
+//        static void Main(String[] args)
+//        {
+//            Book book = new Book("Song of Ice and Fire", "Gerorge R R Martin", 097235973);
+//            book.DisplayDetails();
+//            Console.ReadKey();
+//        }
+//    }
 }
