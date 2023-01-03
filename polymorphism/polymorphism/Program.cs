@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using System;
 namespace Polymorphism
 {
     class Human
@@ -32,8 +31,11 @@ namespace Polymorphism
     {
         public static void Main(string[] args)
         {
+            char[] array = { 'C', 'H', 'A', 'R' };
+            Console.WriteLine(array);
 
             Human human = new Human();
+            Console.WriteLine(human);
             human.eat();
             Console.Read();
         }
