@@ -7,6 +7,13 @@ namespace InheritancePractice
     {
         protected string name = "", author = "", isbn = "";
 
+        public Book(string n, string a, string i)
+        {
+            name = n;
+            author = a;
+            isbn = i;
+           
+        }
         public void DisplayDetails()
         {
             Console.WriteLine(name + " " + author +  " " + isbn);
@@ -35,9 +42,22 @@ namespace InheritancePractice
     {
         private int edition = 0;
 
+        public Magazine(string n, string a, string i, int e) : base(n, a, i)
+        {
+            edition = e;
+        }
         public void setEdition(int ed)
         {
             edition = ed;
+        }
+    }
+
+    class Program
+    {
+        static void main(String[] args)
+        {
+            Book book = new Book();
+            
         }
     }
 }
