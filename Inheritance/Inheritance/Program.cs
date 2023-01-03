@@ -23,7 +23,7 @@ namespace Inheritance
     }
     internal class Program
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
             Father  father = new Father();
             Console.WriteLine("House attribute is visible outside the class: " + father.house);

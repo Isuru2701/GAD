@@ -5,9 +5,10 @@ namespace InheritancePractice
 {
     class Book
     {
-        protected string name = "", author = "", isbn = "";
+        protected string name = "", author = "";
+         protected int  isbn = 0;
 
-        public Book(string n, string a, string i)
+        public Book(string n, string a, int i)
         {
             name = n;
             author = a;
@@ -30,7 +31,7 @@ namespace InheritancePractice
             this.author = author;
         }
 
-        public void SetISBN(string isbn)
+        public void SetISBN(int isbn)
         {
             this.isbn = isbn;
         }
@@ -42,7 +43,7 @@ namespace InheritancePractice
     {
         private int edition = 0;
 
-        public Magazine(string n, string a, string i, int e) : base(n, a, i)
+        public Magazine(string n, string a, int i, int e) : base(n, a, i)
         {
             edition = e;
         }
@@ -54,10 +55,11 @@ namespace InheritancePractice
 
     class Program
     {
-        static void main(String[] args)
+        static void Main(String[] args)
         {
-            Book book = new Book();
-            
+            Book book = new Book("Song of Ice and Fire", "Gerorge R R Martin", 097235973);
+            book.DisplayDetails();
+            Console.ReadKey();
         }
     }
 }
