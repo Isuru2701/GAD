@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A5728E87-0276-4631-8571-A847E1143AE9}</ProjectGuid>
+    <ProjectGuid>{DA673034-E554-48F6-936C-1984C1761BB5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_5_01_2023Practical</RootNamespace>
-    <AssemblyName>5-01-2023Practical</AssemblyName>
+    <RootNamespace>inheritane_exercise</RootNamespace>
+    <AssemblyName>inheritane_exercise</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>_5_01_2023Practical.VehicleMain</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Vehicle.cs" />
-    <Compile Include="classes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

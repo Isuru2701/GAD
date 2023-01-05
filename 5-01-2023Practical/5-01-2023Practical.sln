@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5-01-2023Practical", "5-01-2023Practical\5-01-2023Practical.csproj", "{A5728E87-0276-4631-8571-A847E1143AE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inheritane_exercise", "inheritane_exercise\inheritane_exercise.csproj", "{DA673034-E554-48F6-936C-1984C1761BB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A5728E87-0276-4631-8571-A847E1143AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5728E87-0276-4631-8571-A847E1143AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5728E87-0276-4631-8571-A847E1143AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA673034-E554-48F6-936C-1984C1761BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA673034-E554-48F6-936C-1984C1761BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA673034-E554-48F6-936C-1984C1761BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA673034-E554-48F6-936C-1984C1761BB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

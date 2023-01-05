@@ -8,7 +8,7 @@ namespace _5_01_2023Practical
 {
     internal class Program
     {
-        static void main(string[] args)
+        static void Main(string[] args)
         {
             Parity();
             Calculator();
