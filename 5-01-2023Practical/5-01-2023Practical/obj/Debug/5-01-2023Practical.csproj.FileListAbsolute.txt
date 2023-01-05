@@ -1,0 +1,8 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\obj\Debug\5-01-2023Practical.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\obj\Debug\5-01-2023Practical.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\obj\Debug\5-01-2023Practical.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\bin\Debug\5-01-2023Practical.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\bin\Debug\5-01-2023Practical.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\bin\Debug\5-01-2023Practical.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\obj\Debug\5-01-2023Practical.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\5-01-2023Practical\obj\Debug\5-01-2023Practical.pdb
