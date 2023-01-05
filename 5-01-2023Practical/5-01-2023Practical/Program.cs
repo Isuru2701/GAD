@@ -8,8 +8,9 @@ namespace _5_01_2023Practical
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void main(string[] args)
         {
+            Parity();
             Calculator();
             Console.ReadKey();
 
@@ -19,7 +20,7 @@ namespace _5_01_2023Practical
         {
             int number;
             Console.WriteLine("Enter number: ");
-            number = Console.Read();
+            number = Convert.ToInt16(Console.ReadLine());
             if (number % 2 != 0)
             {
                 Console.WriteLine("number is odd");
@@ -34,6 +35,7 @@ namespace _5_01_2023Practical
         {
             double num1, num2, num3;
             int op;
+            Console.WriteLine("---CALCULATOR---");
             Console.WriteLine("Enter number 1");
             num1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter number 2");
