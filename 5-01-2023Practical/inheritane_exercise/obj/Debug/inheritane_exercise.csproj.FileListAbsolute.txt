@@ -1,0 +1,8 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\bin\Debug\inheritane_exercise.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\bin\Debug\inheritane_exercise.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\bin\Debug\inheritane_exercise.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\obj\Debug\inheritane_exercise.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\obj\Debug\inheritane_exercise.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\obj\Debug\inheritane_exercise.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\obj\Debug\inheritane_exercise.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\5-01-2023Practical\inheritane_exercise\obj\Debug\inheritane_exercise.pdb
