@@ -1,0 +1,11 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\bin\Debug\FirstGraphic.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\bin\Debug\FirstGraphic.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\bin\Debug\FirstGraphic.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.Properties.Resources.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\FirstGraphic\FirstGraphic\obj\Debug\FirstGraphic.Calculator.resources
