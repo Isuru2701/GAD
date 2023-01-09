@@ -20,20 +20,40 @@ namespace Abstract_classes
         {
 
         }
-
+        
+        //Override makes the class reference the abstract class. The lack of it would present an error
         public override void SpeedUp()
         {
-
+            Console.WriteLine("Car speeds up");
         }
         public override void Brake() 
-        { 
-        
+        {
+            Console.WriteLine("Car brakes");
         }
         public override void ChangeGear()
         {
-            
+            Console.WriteLine("Car changes gear");
         }
 
+    }
+
+    class Ship : Vehicle
+    {
+        public override void SpeedUp()
+        {
+            Console.WriteLine("Ship speeds up");
+
+        }
+
+        public override void Brake()
+        {
+            Console.WriteLine("Ship slows down");
+        }
+
+        public override void ChangeGear()
+        {
+            Console.WriteLine("Ship changes gear");
+        }
     }
     internal class Program
     {
