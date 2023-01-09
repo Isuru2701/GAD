@@ -59,8 +59,19 @@ namespace Abstract_classes
     {
         static void Main(string[] args)
         {
+            Car car = new Car();
+            car.SpeedUp();
+            car.Brake();
+            car.ChangeGear();
 
+            Ship ship = new Ship();
+            ship.SpeedUp();
+            ship.Brake();
+            ship.ChangeGear();
+
+            Console.ReadLine();
         }
+
 
        
     }
