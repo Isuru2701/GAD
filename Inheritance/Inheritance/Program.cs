@@ -16,9 +16,12 @@ namespace Inheritance
 
     class Child : Father //inheritance
     {
+
+
         public void drive()
         {
             Console.WriteLine("This is my car: " + car);
+            Console.Write()
         }
     }
     internal class Program

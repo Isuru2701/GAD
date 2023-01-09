@@ -67,11 +67,6 @@ namespace Calculator
                 };
             } while (flag);
             Console.ReadKey();
-            //commit test 123
-
-
-
-
 
         }
     }

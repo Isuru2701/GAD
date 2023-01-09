@@ -36,7 +36,7 @@ namespace Encapsulation
             gear -= a;
             Console.WriteLine("Current gear: " + speed);
 
-        }
+        } 
     }
  
     internal class Program
@@ -45,6 +45,7 @@ namespace Encapsulation
         {
             Pulsar2000 bike1 = new Pulsar2000();
             bike1.SpeedUp(1);
+            bike1.GearUp(1);
 
             Console.ReadKey();
         }
