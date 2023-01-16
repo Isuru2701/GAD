@@ -17,14 +17,23 @@ namespace formsApp
             InitializeComponent();
         }
 
+        private void txt_entry_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         private void btn_display_Click(object sender, EventArgs e)
         {
-            DialogResult ans = MessageBox.Show("Hello!\nClose this message?", "InfoBox", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
-            if (ans == DialogResult.Cancel)
-            {
-                MessageBox.Show("Done");
-            }
+            //DialogResult ans = MessageBox.Show("Hello!\nClose this message?", "InfoBox", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            //if (ans == DialogResult.Cancel)
+            //{
+            //    MessageBox.Show("Done");
+            //}
 
+
+            //fetches the value in the txt_entry box
+            lbl_display.Text = "Hi, " + txt_entry.Text;        
+           
         }
     }
 }
