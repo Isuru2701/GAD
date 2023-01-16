@@ -1,0 +1,11 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\bin\Debug\SalaryCalculator.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\bin\Debug\SalaryCalculator.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\bin\Debug\SalaryCalculator.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.Form1.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.Properties.Resources.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\SalaryCalculator\SalaryCalculator\SalaryCalculator\obj\Debug\SalaryCalculator.pdb
