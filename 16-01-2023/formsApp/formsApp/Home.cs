@@ -19,7 +19,12 @@ namespace formsApp
 
         private void btn_display_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello");
+            DialogResult ans = MessageBox.Show("Hello!\nClose this message?", "InfoBox", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (ans == DialogResult.Cancel)
+            {
+                MessageBox.Show("Done");
+            }
+
         }
     }
 }
