@@ -1,0 +1,11 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\bin\Debug\formsApp.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\bin\Debug\formsApp.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\bin\Debug\formsApp.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.Properties.Resources.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\16-01-2023\formsApp\formsApp\obj\Debug\formsApp.Home.resources
