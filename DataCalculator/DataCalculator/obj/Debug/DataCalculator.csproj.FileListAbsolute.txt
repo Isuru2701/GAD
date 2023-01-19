@@ -1,0 +1,11 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\bin\Debug\DataCalculator.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\bin\Debug\DataCalculator.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\bin\Debug\DataCalculator.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.Form1.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.Properties.Resources.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.pdb
