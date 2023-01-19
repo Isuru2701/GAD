@@ -35,6 +35,7 @@ namespace SalaryCalculator
             catch
             {
                 MessageBox.Show("Some fields are empty or contain invalid values", "warning", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                btn_clear_Click(sender, e);
             }
         }
 
