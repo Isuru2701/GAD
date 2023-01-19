@@ -20,39 +20,48 @@ namespace ElectricityCalculator
 
         private void btn_calculate_Click(object sender, EventArgs e)
         {
-            if (rad_business.Checked)
+            try
             {
-
-                try
+                if (rad_business.Checked)
                 {
+
                     BusinessCustomer.Units = Convert.ToDouble(txt_units.Text);
                     lbl_amount.Text = "Rs. " + (new BusinessCustomer().CalculateBill()).ToString();
                 }
-                catch 
-                {
-                    MessageBox.Show("Invalid characters entered. Please retry.");
-                }
-            }
-            else if (rad_domestic.Checked)
-            {
-                try
+                else if (rad_domestic.Checked)
                 {
                     DomesticCustomer.Units = Convert.ToDouble(txt_units.Text);
                     lbl_amount.Text = "Rs. " + (new DomesticCustomer().CalculateBill()).ToString();
                 }
-                catch
-                {
-                    MessageBox.Show("Invalid characters entered. Please retry.");
-                }
             }
+            catch
+            {
+                MessageBox.Show("Invalid value. Please retry.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_exit_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Exit Calculator?", "exit confirm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK) this.Close();
+        }
+
+        private void btn_clear_Click(object sender, EventArgs e)
+        {
+            txt_units.Clear();
+            lbl_amount.Text = "Rs. 0.00";
+        }
+
     }
 
     internal abstract class Customer
     {
         public static double Units { get; set; }
-        public static double Amount { get; set; }
-
         abstract public double CalculateBill();
     }
 
@@ -61,31 +70,24 @@ namespace ElectricityCalculator
         public override double CalculateBill()
         {
             //starts off with the rental amount + first 100 units (Rs 200 + 500)
-            Amount = 700;
-            //20 per additional (Unit > 100)
-            if (Units > 100)
-            {
-                Amount += ((Units - 100) * 20);
-            }
+            if (Units <= 100) return 700;
 
-            return Amount;
+            //20 per additional (Unit > 100)
+            else return 700 + ((Units - 100) * 20);
+
+
         }
     }
-
     internal class BusinessCustomer : Customer
     {
         public override double CalculateBill()
         {
             //starts off with the rental amount + first 100 units (Rs 600 + 800)
-            Amount = 1400;
-            //50 per additional (Unit > 100)
-            if (Units > 100)
-            {
-                Amount += ((Units - 100) * 50);
-            }
+            if (Units <= 100) return 1400;
 
-            return Amount;
+            //20 per additional (Unit > 100)
+            else return 1400 + ((Units - 100) * 50);
+
         }
     }
-
 }
