@@ -1,0 +1,11 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\bin\Debug\ElectricityCalculator.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\bin\Debug\ElectricityCalculator.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\bin\Debug\ElectricityCalculator.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.Properties.Resources.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\ElectricityCalculator\ElectricityCalculator\ElectricityCalculator\obj\Debug\ElectricityCalculator.Form1.resources
