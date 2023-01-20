@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\DataCalculator",
-    "\\DataCalculator\\DataCalculator",
-    "\\ElectricityCalculator"
+    ""
   ],
-  "SelectedNode": "\\DataCalculator\\DataCalculator\\Package.cs",
+  "SelectedNode": "\\DataCalculator.sln",
   "PreviewInSolutionExplorer": false
 }

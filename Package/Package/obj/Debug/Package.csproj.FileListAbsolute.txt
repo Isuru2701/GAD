@@ -1,0 +1,6 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\Package\Package\bin\Debug\Package.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\Package\Package\bin\Debug\Package.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\Package\Package\obj\Debug\Package.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Package\Package\obj\Debug\Package.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\Package\Package\obj\Debug\Package.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\Package\Package\obj\Debug\Package.pdb

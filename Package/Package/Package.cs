@@ -4,8 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Package
-{
     public class Package
     {
 
@@ -72,4 +70,3 @@ namespace Package
 
         }
     }
-}

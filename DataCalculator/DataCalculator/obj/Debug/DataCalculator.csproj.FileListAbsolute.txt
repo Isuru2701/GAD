@@ -9,3 +9,6 @@ C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\Dat
 C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.exe
 C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\obj\Debug\DataCalculator.csproj.CopyComplete
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\bin\Debug\Package.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\DataCalculator\DataCalculator\bin\Debug\Package.pdb

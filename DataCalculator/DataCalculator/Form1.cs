@@ -26,8 +26,6 @@ namespace DataCalculator
             rad_night.Checked = false;
         }
 
-        
-
         private void btn_calculate_Click(object sender, EventArgs e)
         {
             try
@@ -48,16 +46,11 @@ namespace DataCalculator
             {
                 MessageBox.Show("A field is empty or contains non-numeric characters", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
         }
 
         private void btn_exit_Click(object sender, EventArgs e)
         {
-            
             this.Close();
         }
     }
-
-
 }
