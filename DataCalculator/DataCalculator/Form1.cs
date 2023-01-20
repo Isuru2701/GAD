@@ -21,34 +21,33 @@ namespace DataCalculator
         {
             txt_day.Clear();
             txt_night.Clear();
-            lbl_total.Text = "";
+            lbl_total.Text = "Rs. 0.00";
+            rad_day.Checked = false;
+            rad_night.Checked = false;
         }
 
         
 
         private void btn_calculate_Click(object sender, EventArgs e)
         {
-            double dayUse = 0, nightUse = 0;
             //fetch amounts consumed
             try
             {
-                dayUse = Convert.ToDouble(txt_day.Text);
-                nightUse = Convert.ToDouble(txt_night.Text);
-
                 // if type == Day_Blast
                 if (rad_day.Checked)
-                    Package.CalDayBlast(dayUse, nightUse);
+                    lbl_total.Text = "Rs. " + Package.CalDayBlast(Convert.ToDouble(txt_day.Text), Convert.ToDouble(txt_night.Text));
 
                 //if type == Night_Blast
                 else if (rad_night.Checked)
-                    Package.CalNightBlast(dayUse, nightUse);
+                    lbl_total.Text = "Rs. " + Package.CalNightBlast(Convert.ToDouble(txt_day.Text), Convert.ToDouble(txt_night.Text));
 
-                lbl_total.Text = "Rs. " + Package.Total.ToString();
+                else MessageBox.Show("Please select a package", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
 
             }
             catch
             {
-                MessageBox.Show("Invalid Characters entered", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("A field is empty or contains non-numeric characters", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
 

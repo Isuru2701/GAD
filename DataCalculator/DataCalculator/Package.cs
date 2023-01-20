@@ -8,39 +8,32 @@ namespace DataCalculator
 {
     internal class Package
     {
-        public static double DayCharge { get; set; }
-        public static double NightCharge { get; set; }
-        public static double DayAddon { get; set; }
-        public static double NightAddon { get; set; }
-        public static double Rental { get; set; }
         public static double Total { get; set; }
 
-        private static double Calculate()
+        public static double CalDayBlast(double dayUse, double nightUse)
         {
-            Total = DayCharge + NightCharge + Rental;
-            return Total;
-        }
+            /*
+             * Day Charge (Upto 50GB) = 400
+             *Night Charge (Upto 10GB) = 200
+             * Rental = 200
+             *Addon Day time = 10
+             *Addon Night time  = 20
+            */
 
-        public static void CalDayBlast(double dayUse, double nightUse)
-        {
-            Package.DayCharge = 400;
-            Package.NightCharge = 200;
-            Package.DayAddon = 10;
-            Package.NightAddon = 20;
-            Package.Rental = 200;
-
+            //Day chage  + night charge + rental
+            Total = 400 + 200 + 200;
             if (dayUse > 50)
             {
-                Package.DayCharge += ((dayUse - 50) * Package.DayAddon);
+                Total += ((dayUse - 50) * 10);
+
             }
 
             if (nightUse > 10)
             {
-                Package.NightCharge += ((nightUse - 10) * Package.NightAddon);
+                Total += ((nightUse - 10) * 20);
             }
 
-            Calculate();
-            //taxation
+            //taxation (happens after the original sum is calculated)
             if (Package.Total > 1000)
             {
                 Package.Total += 350;
@@ -49,29 +42,33 @@ namespace DataCalculator
             {
                 Package.Total += 250;
             }
+            return Total;
         }
 
-        public static void CalNightBlast(double dayUse, double nightUse)
+        public static double CalNightBlast(double dayUse, double nightUse)
         {
-            Package.DayCharge = 200;
-            Package.NightCharge = 600;
-            Package.DayAddon = 20;
-            Package.NightAddon = 10;
-            Package.Rental = 400;
+            /*
+             * Day Charge (Upto 10GB) = 200
+             *Night Charge (Upto 100GB) = 600
+             * Rental = 400
+             *Addon Day time = 20
+             *Addon Night time  = 10
+            */
 
+            //Day chage  + night charge + rental
+            Total = 200 + 600 + 400;
             if (dayUse > 10)
             {
-                Package.DayCharge += ((dayUse - 10) * Package.DayAddon);
+                Total += ((dayUse - 10) * 20);
             }
 
             if (nightUse > 100)
             {
-                Package.NightCharge += ((nightUse - 100) * Package.NightAddon);
+                Total += ((nightUse - 100) * 10);
             }
 
-            Calculate();
 
-            //taxation
+            //taxation (happens after the original sum is calculated)
             if (Package.Total > 1500)
             {
                 Package.Total += 450;
@@ -80,6 +77,7 @@ namespace DataCalculator
             {
                 Package.Total += 350;
             }
+            return Total;
 
         }
     }
