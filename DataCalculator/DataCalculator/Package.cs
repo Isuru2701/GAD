@@ -22,6 +22,8 @@ namespace DataCalculator
 
             //Day charge + night charge + rental
             Total = 400 + 200 + 200;
+
+            //addons 
             if (dayUse > 50)
             {
                 Total += ((dayUse - 50) * 10);
@@ -57,6 +59,8 @@ namespace DataCalculator
 
             //Day charge + night charge + rental
             Total = 200 + 600 + 400;
+
+            //addons 
             if (dayUse > 10)
             {
                 Total += ((dayUse - 10) * 20);

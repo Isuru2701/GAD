@@ -50,7 +50,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("JetBrains Mono", 15F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(24, 57);
+            this.label1.Location = new System.Drawing.Point(153, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(299, 32);
             this.label1.TabIndex = 0;
@@ -62,7 +62,7 @@
             this.rad_day.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
             this.rad_day.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.rad_day.ForeColor = System.Drawing.Color.White;
-            this.rad_day.Location = new System.Drawing.Point(30, 107);
+            this.rad_day.Location = new System.Drawing.Point(159, 84);
             this.rad_day.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.rad_day.Name = "rad_day";
             this.rad_day.Padding = new System.Windows.Forms.Padding(10);
@@ -77,7 +77,7 @@
             this.rad_night.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(27)))), ((int)(((byte)(103)))));
             this.rad_night.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.rad_night.ForeColor = System.Drawing.Color.White;
-            this.rad_night.Location = new System.Drawing.Point(161, 107);
+            this.rad_night.Location = new System.Drawing.Point(290, 84);
             this.rad_night.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.rad_night.Name = "rad_night";
             this.rad_night.Padding = new System.Windows.Forms.Padding(10);
@@ -91,7 +91,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("JetBrains Mono", 15F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(24, 169);
+            this.label2.Location = new System.Drawing.Point(153, 160);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(299, 32);
             this.label2.TabIndex = 3;
@@ -103,7 +103,7 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(148)))), ((int)(((byte)(30)))));
             this.label3.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(26, 244);
+            this.label3.Location = new System.Drawing.Point(21, 217);
             this.label3.Name = "label3";
             this.label3.Padding = new System.Windows.Forms.Padding(0, 5, 5, 3);
             this.label3.Size = new System.Drawing.Size(87, 32);
@@ -116,7 +116,7 @@
             this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(123)))), ((int)(((byte)(27)))), ((int)(((byte)(103)))));
             this.label4.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Bold);
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(283, 241);
+            this.label4.Location = new System.Drawing.Point(286, 216);
             this.label4.Name = "label4";
             this.label4.Padding = new System.Windows.Forms.Padding(0, 5, 5, 3);
             this.label4.Size = new System.Drawing.Size(98, 32);
@@ -127,7 +127,7 @@
             // 
             this.txt_day.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_day.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txt_day.Location = new System.Drawing.Point(114, 246);
+            this.txt_day.Location = new System.Drawing.Point(114, 218);
             this.txt_day.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txt_day.Name = "txt_day";
             this.txt_day.Size = new System.Drawing.Size(112, 27);
@@ -137,7 +137,7 @@
             // 
             this.txt_night.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_night.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.txt_night.Location = new System.Drawing.Point(387, 244);
+            this.txt_night.Location = new System.Drawing.Point(387, 216);
             this.txt_night.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.txt_night.Name = "txt_night";
             this.txt_night.Size = new System.Drawing.Size(112, 27);
@@ -148,7 +148,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(232, 249);
+            this.label6.Location = new System.Drawing.Point(232, 221);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(31, 22);
             this.label6.TabIndex = 9;
@@ -159,7 +159,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(505, 246);
+            this.label7.Location = new System.Drawing.Point(505, 218);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(31, 22);
             this.label7.TabIndex = 10;
@@ -170,7 +170,7 @@
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Arial Narrow", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(109, 390);
+            this.label10.Location = new System.Drawing.Point(175, 367);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(103, 30);
             this.label10.TabIndex = 13;
@@ -182,7 +182,7 @@
             this.lbl_total.BackColor = System.Drawing.Color.Transparent;
             this.lbl_total.Font = new System.Drawing.Font("Arial Narrow", 20F, System.Drawing.FontStyle.Bold);
             this.lbl_total.ForeColor = System.Drawing.Color.White;
-            this.lbl_total.Location = new System.Drawing.Point(235, 390);
+            this.lbl_total.Location = new System.Drawing.Point(301, 367);
             this.lbl_total.Name = "lbl_total";
             this.lbl_total.Size = new System.Drawing.Size(125, 40);
             this.lbl_total.TabIndex = 16;
@@ -193,7 +193,7 @@
             this.btn_calculate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(13)))), ((int)(((byte)(66)))));
             this.btn_calculate.FlatAppearance.BorderSize = 5;
             this.btn_calculate.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_calculate.Location = new System.Drawing.Point(18, 301);
+            this.btn_calculate.Location = new System.Drawing.Point(18, 273);
             this.btn_calculate.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btn_calculate.Name = "btn_calculate";
             this.btn_calculate.Size = new System.Drawing.Size(233, 66);
@@ -205,7 +205,7 @@
             // btn_clear
             // 
             this.btn_clear.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_clear.Location = new System.Drawing.Point(258, 301);
+            this.btn_clear.Location = new System.Drawing.Point(258, 273);
             this.btn_clear.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btn_clear.Name = "btn_clear";
             this.btn_clear.Size = new System.Drawing.Size(194, 66);
@@ -217,7 +217,7 @@
             // btn_exit
             // 
             this.btn_exit.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_exit.Location = new System.Drawing.Point(458, 301);
+            this.btn_exit.Location = new System.Drawing.Point(458, 273);
             this.btn_exit.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btn_exit.Name = "btn_exit";
             this.btn_exit.Size = new System.Drawing.Size(87, 66);

@@ -30,7 +30,6 @@ namespace DataCalculator
 
         private void btn_calculate_Click(object sender, EventArgs e)
         {
-            //fetch amounts consumed
             try
             {
                 // if type == Day_Blast
