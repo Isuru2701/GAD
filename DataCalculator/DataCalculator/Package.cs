@@ -14,13 +14,13 @@ namespace DataCalculator
         {
             /*
              * Day Charge (Upto 50GB) = 400
-             *Night Charge (Upto 10GB) = 200
+             * Night Charge (Upto 10GB) = 200
              * Rental = 200
-             *Addon Day time = 10
-             *Addon Night time  = 20
+             * Addon Day time = 10
+             * Addon Night time  = 20
             */
 
-            //Day chage  + night charge + rental
+            //Day charge + night charge + rental
             Total = 400 + 200 + 200;
             if (dayUse > 50)
             {
@@ -34,13 +34,13 @@ namespace DataCalculator
             }
 
             //taxation (happens after the original sum is calculated)
-            if (Package.Total > 1000)
+            if (Total > 1000)
             {
-                Package.Total += 350;
+                Total += 350;
             }
             else
             {
-                Package.Total += 250;
+                Total += 250;
             }
             return Total;
         }
@@ -49,13 +49,13 @@ namespace DataCalculator
         {
             /*
              * Day Charge (Upto 10GB) = 200
-             *Night Charge (Upto 100GB) = 600
+             * Night Charge (Upto 100GB) = 600
              * Rental = 400
-             *Addon Day time = 20
-             *Addon Night time  = 10
+             * Addon Day time = 20
+             * Addon Night time  = 10
             */
 
-            //Day chage  + night charge + rental
+            //Day charge + night charge + rental
             Total = 200 + 600 + 400;
             if (dayUse > 10)
             {
@@ -69,13 +69,13 @@ namespace DataCalculator
 
 
             //taxation (happens after the original sum is calculated)
-            if (Package.Total > 1500)
+            if (Total > 1500)
             {
-                Package.Total += 450;
+                Total += 450;
             }
             else
             {
-                Package.Total += 350;
+                Total += 350;
             }
             return Total;
 
