@@ -13,8 +13,6 @@ namespace SalaryCalculator
     public partial class Form1 : Form
 
     {
-        double basic, allowance, epf;
-
         public Form1()
         {
             InitializeComponent();
@@ -25,11 +23,8 @@ namespace SalaryCalculator
         {
             try
             {
-                basic = Convert.ToDouble(txt_basic.Text);
-                allowance = Convert.ToDouble(txt_allowance.Text);
 
-                epf = basic * 0.1;
-                txt_net.Text = Convert.ToString(basic + allowance - epf);
+                txt_net.Text = (Convert.ToDouble(txt_basic.Text) + Convert.ToDouble(txt_allowance.Text) - (Convert.ToDouble(txt_basic.Text) * 0.1)).ToString();
 
             }
             catch

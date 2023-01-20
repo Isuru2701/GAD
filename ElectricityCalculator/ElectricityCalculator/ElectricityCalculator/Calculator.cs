@@ -72,7 +72,7 @@ namespace ElectricityCalculator
             //starts off with the rental amount + first 100 units (Rs 200 + 500)
             if (Units <= 100) return 700;
 
-            //20 per additional (Unit > 100)
+            //(Unit > 100) 20 per additional 
             else return 700 + ((Units - 100) * 20);
 
 
@@ -85,7 +85,7 @@ namespace ElectricityCalculator
             //starts off with the rental amount + first 100 units (Rs 600 + 800)
             if (Units <= 100) return 1400;
 
-            //20 per additional (Unit > 100)
+            //(Unit > 100) 50 per additional 
             else return 1400 + ((Units - 100) * 50);
 
         }

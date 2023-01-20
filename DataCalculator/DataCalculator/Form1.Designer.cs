@@ -192,7 +192,7 @@
             // 
             this.btn_calculate.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(13)))), ((int)(((byte)(66)))));
             this.btn_calculate.FlatAppearance.BorderSize = 5;
-            this.btn_calculate.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_calculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btn_calculate.Location = new System.Drawing.Point(18, 273);
             this.btn_calculate.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btn_calculate.Name = "btn_calculate";
@@ -204,7 +204,7 @@
             // 
             // btn_clear
             // 
-            this.btn_clear.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_clear.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btn_clear.Location = new System.Drawing.Point(258, 273);
             this.btn_clear.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btn_clear.Name = "btn_clear";
@@ -216,7 +216,7 @@
             // 
             // btn_exit
             // 
-            this.btn_exit.Font = new System.Drawing.Font("Arial Narrow", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
             this.btn_exit.Location = new System.Drawing.Point(458, 273);
             this.btn_exit.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
             this.btn_exit.Name = "btn_exit";
