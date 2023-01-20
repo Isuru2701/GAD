@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PackageLibrary
+namespace Package
 {
     public class Package
     {
@@ -26,25 +26,18 @@ namespace PackageLibrary
 
             //addons 
             if (dayUse > 50)
-            {
                 Total += ((dayUse - 50) * 10);
 
-            }
 
             if (nightUse > 10)
-            {
                 Total += ((nightUse - 10) * 20);
-            }
 
             //taxation (happens after the original sum is calculated)
             if (Total > 1000)
-            {
                 Total += 350;
-            }
             else
-            {
                 Total += 250;
-            }
+
             return Total;
         }
 
@@ -63,25 +56,18 @@ namespace PackageLibrary
 
             //addons 
             if (dayUse > 10)
-            {
                 Total += ((dayUse - 10) * 20);
-            }
 
             if (nightUse > 100)
-            {
                 Total += ((nightUse - 100) * 10);
-            }
 
 
             //taxation (happens after the original sum is calculated)
             if (Total > 1500)
-            {
                 Total += 450;
-            }
             else
-            {
                 Total += 350;
-            }
+
             return Total;
 
         }
