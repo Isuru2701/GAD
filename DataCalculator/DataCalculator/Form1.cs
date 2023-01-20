@@ -34,26 +34,29 @@ namespace DataCalculator
             {
                 dayUse = Convert.ToDouble(txt_day.Text);
                 nightUse = Convert.ToDouble(txt_night.Text);
+
+                // if type == Day_Blast
+                if (rad_day.Checked)
+                    Package.CalDayBlast(dayUse, nightUse);
+
+                //if type == Night_Blast
+                else if (rad_night.Checked)
+                    Package.CalNightBlast(dayUse, nightUse);
+
+                lbl_total.Text = "Rs. " + Package.Total.ToString();
+
             }
             catch
             {
                 MessageBox.Show("Invalid Characters entered", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
-            // if type == Day_Blast
-            if (rad_day.Checked)
-                Package.CalDayBlast(dayUse, nightUse);
-
-            //if type == Night_Blast
-            else if (rad_night.Checked)
-                Package.CalNightBlast(dayUse, nightUse);   
-
-            lbl_total.Text = "Rs. " + Package.Total.ToString(); 
 
         }
 
         private void btn_exit_Click(object sender, EventArgs e)
         {
+            
             this.Close();
         }
     }
