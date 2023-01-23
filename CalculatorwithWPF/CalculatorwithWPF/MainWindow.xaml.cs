@@ -40,6 +40,12 @@ namespace CalculatorwithWPF
             {
                 MessageBox.Show("Error, please enter numeric values", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+            catch (Exception)
+            {
+                MessageBox.Show("Error, Please try again", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
+
         }
 
         private void btn_sub_Click(object sender, RoutedEventArgs e)
@@ -51,6 +57,11 @@ namespace CalculatorwithWPF
             catch (FormatException)
             {
                 MessageBox.Show("Error, please enter numeric values", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error, Please try again", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+
             }
         }
 
@@ -66,6 +77,11 @@ namespace CalculatorwithWPF
 
                 MessageBox.Show("Error, please enter numeric values", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+            catch (Exception)
+            {
+                MessageBox.Show("Error, Please try again", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
         }
 
         private void btn_div_Click(object sender, RoutedEventArgs e)
@@ -78,6 +94,12 @@ namespace CalculatorwithWPF
             {
                 MessageBox.Show("Error, please enter numeric values", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+            catch (Exception)
+            {
+                MessageBox.Show("Error, Please try again", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+
+            }
+
         }
 
         private void btn_clear_Click(object sender, RoutedEventArgs e)

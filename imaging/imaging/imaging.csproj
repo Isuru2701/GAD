@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{56285A3B-F3EC-4354-BF8F-A41125C0DC82}</ProjectGuid>
+    <ProjectGuid>{481E7D3B-821E-4409-93FB-954492AD251C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CalculatorwithWPF</RootNamespace>
-    <AssemblyName>CalculatorwithWPF</AssemblyName>
+    <RootNamespace>imaging</RootNamespace>
+    <AssemblyName>imaging</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -95,7 +95,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="0b9017db1df168bd8e2c94f2ce70f090.png" />
+    <Resource Include="upload image[397].jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CalculatorwithWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="386" Background="Black"
-        WindowStartupLocation="CenterScreen">
+        Title="Calculator" Height="450" Width="386" Background="Black"
+        WindowStartupLocation="CenterScreen" Icon="/0b9017db1df168bd8e2c94f2ce70f090.png">
     <Grid>
         <TextBox x:Name="txt_num1" HorizontalAlignment="Left" Margin="62,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="40" FontFamily="Cascadia Mono SemiBold"/>
         <TextBox x:Name="txt_num2" HorizontalAlignment="Left" Margin="62,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="40" FontFamily="Cascadia Mono SemiBold"/>
