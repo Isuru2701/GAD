@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:imaging"
         mc:Ignorable="d"
-        Title="MainWindow" Height="372" Width="372"
-        WindowStartupLocation="CenterScreen">
+        Title="Image selector" Height="372" Width="372"
+        WindowStartupLocation="CenterScreen"
+        Icon="/upload image[397].jpg">
     <Grid>
         <Button x:Name="btn_upload" Content="Upload Image" HorizontalAlignment="Center" Margin="0,213,0,0" VerticalAlignment="Top" Height="48" Width="92" Click="btn_upload_Click"/>
         <Image x:Name="pic_pfp" HorizontalAlignment="Left" Height="198" Margin="89,10,0,0" VerticalAlignment="Top" Width="197" Source="/upload image[397].jpg"/>

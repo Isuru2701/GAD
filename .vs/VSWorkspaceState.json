@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\nuget",
-    "\\nuget\\nuget\\bin",
-    "\\nuget\\nuget\\bin\\Debug",
-    "\\nuget\\nuget\\Properties"
+    "\\imaging",
+    "\\imaging\\imaging"
   ],
-  "SelectedNode": "\\nuget\\nuget.sln",
+  "SelectedNode": "\\imaging\\imaging.sln",
   "PreviewInSolutionExplorer": false
 }

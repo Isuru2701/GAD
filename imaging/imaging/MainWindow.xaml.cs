@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.IO;
 using System.Drawing;
 using Microsoft.Win32;
+using System.Xml.Linq;
 
 namespace imaging
 {
@@ -46,13 +47,13 @@ namespace imaging
             }
             catch (ArgumentNullException)
             {
-                pic_pfp.Source = new BitmapImage(new Uri("/upload image[397].jpg"));
+                pic_pfp.Source = new BitmapImage(new Uri( "/upload image[397].jpg"));
             }
             catch(NotSupportedException)
             {
                 MessageBox.Show("not an image file");
                 pic_pfp.Source = new BitmapImage(new Uri("/upload image[397].jpg"));
-
+                
             }
 
         }
