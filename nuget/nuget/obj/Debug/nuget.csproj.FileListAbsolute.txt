@@ -1,0 +1,15 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\bin\Debug\nuget.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\bin\Debug\nuget.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\bin\Debug\nuget.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.Home.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.Properties.Resources.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\bin\Debug\MetroFramework.Design.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\bin\Debug\MetroFramework.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\nuget\nuget\obj\Debug\nuget.csproj.CopyComplete

@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\nuget",
+    "\\nuget\\nuget\\bin",
+    "\\nuget\\nuget\\bin\\Debug",
+    "\\nuget\\nuget\\Properties"
   ],
-  "SelectedNode": "\\DataCalculator.sln",
+  "SelectedNode": "\\nuget\\nuget.sln",
   "PreviewInSolutionExplorer": false
 }
