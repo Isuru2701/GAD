@@ -24,7 +24,7 @@
         <PasswordBox x:Name="pwb_confirm_password" HorizontalAlignment="Left" Margin="224,309,0,0" VerticalAlignment="Top" Width="143" Height="23"/>
         <Button x:Name="btn_submit" Content="Submit" HorizontalAlignment="Left" Margin="459,69,0,0" VerticalAlignment="Top" Height="87" Width="146" Click="btn_submit_Click"/>
         <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="459,176,0,0" VerticalAlignment="Top" Height="87" Width="146" Click="btn_clear_Click"/>
-        <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="459,291,0,0" VerticalAlignment="Top" Height="87" Width="146"/>
+        <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="459,291,0,0" VerticalAlignment="Top" Height="87" Width="146" Click="btn_exit_Click"/>
         <Label x:Name="lbl_error" HorizontalAlignment="Left" Margin="37,26,0,0" VerticalAlignment="Top" Width="568" Foreground="#FFE81717" FontWeight="Bold" FontStyle="Italic" Height="38"/>
 
     </Grid>

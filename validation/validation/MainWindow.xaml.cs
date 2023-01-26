@@ -48,11 +48,38 @@ namespace validation
             {
                 lbl_error.Content = "Password and confirmation do not match";
             }
+
+            else if (string.IsNullOrEmpty(txt_address.Text))
+            {
+                lbl_error.Content = "address cannot be empty";
+
+            }
+            else if (string.IsNullOrEmpty(txt_telephone.Text) || txt_telephone.Text.Length != 10 || !Regex.IsMatch(txt_telephone.Text, @"^(?:7|0|(?:\+94))[0-9]{8,9}$"))
+            {
+                lbl_error.Content = "telephone number is invalid";
+            }
+            else
+            {
+                lbl_error.Content = "";
+            }
+
         }
 
         private void btn_clear_Click(object sender, RoutedEventArgs e)
         {
+            txt_fname.Clear();
+            txt_lname.Clear();
+            txt_address.Clear();
+            txt_email.Clear();
+            txt_telephone.Clear();
+            pwb_password.Clear();
+            pwb_confirm_password.Clear();
 
+        }
+
+        private void btn_exit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
