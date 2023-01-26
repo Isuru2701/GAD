@@ -1,0 +1,11 @@
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\bin\Debug\formHW.exe.config
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\bin\Debug\formHW.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\bin\Debug\formHW.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.csproj.AssemblyReference.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.csproj.SuggestedBindingRedirects.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.Home.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.Properties.Resources.resources
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.csproj.GenerateResource.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.exe
+C:\Users\ASUS\Documents\DSE\GAD\code\formHW\formHW\obj\Debug\formHW.pdb

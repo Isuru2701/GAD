@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:validation"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="572" Width="657"
+        WindowState="Maximized">
     <Grid>
-        
+        <Label Content="First name" HorizontalAlignment="Left" Margin="49,69,0,0" VerticalAlignment="Top" Height="31" Width="106" FontSize="15"/>
+        <Label Content="Last name" HorizontalAlignment="Left" Margin="49,131,0,0" VerticalAlignment="Top" Height="31" Width="106" FontSize="15"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="49,193,0,0" VerticalAlignment="Top" Height="31" Width="106" FontSize="15"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="49,255,0,0" VerticalAlignment="Top" Height="31" Width="106" FontSize="15"/>
+        <Label Content="Confirm password" HorizontalAlignment="Left" Margin="49,309,0,0" VerticalAlignment="Top" Height="30" Width="136" FontSize="15"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="49,370,0,0" VerticalAlignment="Top" Height="31" Width="106" FontSize="15"/>
+        <Label Content="Telephone" HorizontalAlignment="Left" Margin="49,433,0,0" VerticalAlignment="Top" Height="31" Width="106" FontSize="15"/>
+        <TextBox x:Name="txt_fname" HorizontalAlignment="Left" Margin="224,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="25"/>
+        <TextBox x:Name="txt_lname" HorizontalAlignment="Left" Margin="224,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="25"/>
+        <TextBox x:Name="txt_address" HorizontalAlignment="Left" Margin="224,371,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="25"/>
+        <TextBox x:Name="txt_telephone" HorizontalAlignment="Left" Margin="224,433,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="25"/>
+        <TextBox x:Name="txt_email" HorizontalAlignment="Left" Margin="224,193,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="143" Height="25"/>
+        <PasswordBox x:Name="pwb_password" HorizontalAlignment="Left" Margin="224,255,0,0" VerticalAlignment="Top" Width="143" Height="23"/>
+        <PasswordBox x:Name="pwb_confirm_password" HorizontalAlignment="Left" Margin="224,309,0,0" VerticalAlignment="Top" Width="143" Height="23"/>
+        <Button x:Name="btn_submit" Content="Submit" HorizontalAlignment="Left" Margin="459,69,0,0" VerticalAlignment="Top" Height="87" Width="146" Click="btn_submit_Click"/>
+        <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="459,176,0,0" VerticalAlignment="Top" Height="87" Width="146" Click="btn_clear_Click"/>
+        <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="459,291,0,0" VerticalAlignment="Top" Height="87" Width="146"/>
+        <Label x:Name="lbl_error" HorizontalAlignment="Left" Margin="37,26,0,0" VerticalAlignment="Top" Width="568" Foreground="#FFE81717" FontWeight="Bold" FontStyle="Italic" Height="38"/>
+
     </Grid>
 </Window>
