@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-using System.Data.SqlClient;
+using System.Data.SqlClient; //ADO.net Class library
 
 namespace database
 {
@@ -26,9 +26,12 @@ namespace database
             InitializeComponent();
         }
 
+        SqlConnection con; //pipeline
+        SqlCommand cmd; //command 
+
         private void RegistrationView_Loaded(object sender, RoutedEventArgs e)
         {
-
+            con = new SqlConnection("Data Source=ISURU;Initial Catalog=Bank;Integrated Security=True");
         }
     }
 }
