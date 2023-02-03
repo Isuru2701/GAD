@@ -12,7 +12,7 @@
         <Button x:Name="btn_delete" Content="Delete" HorizontalAlignment="Left" Margin="53,194,0,0" VerticalAlignment="Top" Height="130" Width="140" Click="btn_delete_Click"/>
         <Button x:Name="btn_display" Content="Display" HorizontalAlignment="Left" Margin="223,194,0,0" VerticalAlignment="Top" Height="130" Width="140" Click="btn_display_Click" />
         <Button x:Name="btn_clientreport" Content="Report" HorizontalAlignment="Left" Margin="599,38,0,0" VerticalAlignment="Top" Height="130" Width="140"/>
-        <Button x:Name="btn_clientreportDOB" Content="Report by Date of Birth" HorizontalAlignment="Left" Margin="599,194,0,0" VerticalAlignment="Top" Height="130" Width="140"/>
+        <Button x:Name="btn_clientreportDOB" Content="Report by&#xD;&#xA; Date of Birth" HorizontalAlignment="Left" Margin="599,194,0,0" VerticalAlignment="Top" Height="130" Width="140"/>
 
     </Grid>
 </Window>
