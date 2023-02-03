@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="Home" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="btn_registration" Content="Registration" HorizontalAlignment="Left" Margin="53,38,0,0" VerticalAlignment="Top" Height="130" Width="140" Click="btn_registration_Click"/>
+        <Button x:Name="btn_update" Content="Update" HorizontalAlignment="Left" Margin="223,38,0,0" VerticalAlignment="Top" Height="130" Width="140" Click="btn_update_Click"/>
+        <Button x:Name="btn_delete" Content="Delete" HorizontalAlignment="Left" Margin="53,194,0,0" VerticalAlignment="Top" Height="130" Width="140" Click="btn_delete_Click"/>
+        <Button x:Name="btn_display" Content="Display" HorizontalAlignment="Left" Margin="223,194,0,0" VerticalAlignment="Top" Height="130" Width="140" Click="btn_display_Click" />
+        <Button x:Name="btn_clientreport" Content="Report" HorizontalAlignment="Left" Margin="599,38,0,0" VerticalAlignment="Top" Height="130" Width="140"/>
+        <Button x:Name="btn_clientreportDOB" Content="Report by Date of Birth" HorizontalAlignment="Left" Margin="599,194,0,0" VerticalAlignment="Top" Height="130" Width="140"/>
+
     </Grid>
 </Window>

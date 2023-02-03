@@ -23,5 +23,26 @@ namespace database
         {
             InitializeComponent();
         }
+
+        private void btn_registration_Click(object sender, RoutedEventArgs e)
+        {
+            new Registration().Show();
+
+        }
+
+        private void btn_update_Click(object sender, RoutedEventArgs e)
+        {
+            new Update().Show();
+        }
+
+        private void btn_delete_Click(object sender, RoutedEventArgs e)
+        {
+            new Delete().Show();
+        }
+
+        private void btn_display_Click(object sender, RoutedEventArgs e)
+        {
+            new Display().Show();
+        }
     }
 }

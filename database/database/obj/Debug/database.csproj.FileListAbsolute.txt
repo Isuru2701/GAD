@@ -22,3 +22,7 @@ C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\database.csproj
 C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\database.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\database.exe
 C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\database.pdb
+C:\Users\ASUS\Documents\DSE\GAD\code\database\database\bin\Debug\MetroFramework.Design.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\database\database\bin\Debug\MetroFramework.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\database\database\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\database.csproj.CopyComplete
