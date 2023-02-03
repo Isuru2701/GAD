@@ -67,5 +67,10 @@ namespace database
 
                 con.Close();
         }
+
+        private void picker_dob_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            txt_age.Text = (DateTime.Now.Year - picker_dob.SelectedDate.Value.Year).ToString();
+        }
     }
 }
