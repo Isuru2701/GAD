@@ -13,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using System.Data.SqlClient;
+
 namespace database
 {
     /// <summary>
@@ -35,6 +37,23 @@ namespace database
 
         private void btn_update_Click(object sender, RoutedEventArgs e)
         {
+            con.Open();
+            cmd = new SqlCommand("Update Client set Client_Name='"+txt_name.Text+"', " +
+                "Client_address='"+txt_address.Text+"', " +
+                "Client_DOB='"+picker_dob.DisplayDate +"', " +
+                "Client_Age='" + txt_age.Text+ "', " +
+                "Client_TP='" + txt_phone.Text+ "' Where Client_Id=" + txt_id.Text);
+
+            if (cmd.ExecuteNonQuery() == 1)
+            {
+                MessageBox.Show("Data Entry Successful");
+            }
+            else
+            {
+                MessageBox.Show("ENTRY ERROR");
+            }
+
+            con.Close();
 
         }
 
@@ -43,5 +62,9 @@ namespace database
             txt_age.Text = (DateTime.Now.Year - picker_dob.SelectedDate.Value.Year).ToString();
         }
 
+        private void btn_clear_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

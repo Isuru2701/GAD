@@ -29,7 +29,7 @@
             <TextBox x:Name="txt_age" HorizontalAlignment="Left" Margin="218,309,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" IsHitTestVisible="False"/>
             <DatePicker x:Name="picker_dob" HorizontalAlignment="Left" Margin="218,251,0,0" VerticalAlignment="Top" Width="150" SelectedDateFormat="Short" SelectedDateChanged="picker_dob_SelectedDateChanged"/>
             <Button x:Name="btn_update" Content="Update" HorizontalAlignment="Left" Margin="48,460,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="btn_update_Click"/>
-            <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="242,460,0,0" VerticalAlignment="Top" Height="70" Width="96"/>
+            <Button x:Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="242,460,0,0" VerticalAlignment="Top" Height="70" Width="96" Click="btn_clear_Click"/>
             <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="442,460,0,0" VerticalAlignment="Top" Height="70" Width="96"/>
 
 
