@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:database"
              StartupUri="Home.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary Source="Buttons.xaml"/>
+
     </Application.Resources>
 </Application>

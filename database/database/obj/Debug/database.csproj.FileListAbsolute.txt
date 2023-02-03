@@ -26,3 +26,5 @@ C:\Users\ASUS\Documents\DSE\GAD\code\database\database\bin\Debug\MetroFramework.
 C:\Users\ASUS\Documents\DSE\GAD\code\database\database\bin\Debug\MetroFramework.dll
 C:\Users\ASUS\Documents\DSE\GAD\code\database\database\bin\Debug\MetroFramework.Fonts.dll
 C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\database.csproj.CopyComplete
+C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\Buttons.baml
+C:\Users\ASUS\Documents\DSE\GAD\code\database\database\obj\Debug\App.baml

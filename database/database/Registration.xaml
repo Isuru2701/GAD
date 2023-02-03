@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:database"
         mc:Ignorable="d"
-        Title="Registration" Height="600" Width="800"
-        x:Name="RegistrationView">
+        Title="Registration" Height="600" Width="700"
+        x:Name="RegistrationView"
+        Loaded="RegistrationView_Loaded">
     <Grid>
         <Label Content="Client ID" HorizontalAlignment="Left" Margin="48,57,0,0" VerticalAlignment="Top"/>
         <Label Content="Client Name" HorizontalAlignment="Left" Margin="48,123,0,0" VerticalAlignment="Top"/>
@@ -28,10 +29,10 @@
             <TextBox x:Name="txt_address" HorizontalAlignment="Left" Margin="218,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
             <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Margin="218,377,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
             <TextBox x:Name="txt_age" HorizontalAlignment="Left" Margin="218,309,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-            <DatePicker x:Name="picker_dob" HorizontalAlignment="Left" Margin="218,251,0,0" VerticalAlignment="Top" Width="120" SelectedDateFormat="Short"/>
+            <DatePicker x:Name="picker_dob" HorizontalAlignment="Left" Margin="218,251,0,0" VerticalAlignment="Top" Width="150" SelectedDateFormat="Short"/>
             <Button Name="btn_save" Content="Save" HorizontalAlignment="Left" Margin="48,460,0,0" VerticalAlignment="Top" Height="70" Width="96"/>
-            <Button Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="198,460,0,0" VerticalAlignment="Top" Height="70" Width="96"/>
-            <Button Name="btn_exit" Content="Exit" HorizontalAlignment="Center" Margin="0,460,0,0" VerticalAlignment="Top" Height="70" Width="96"/>
+            <Button Name="btn_clear" Content="Clear" HorizontalAlignment="Left" Margin="242,460,0,0" VerticalAlignment="Top" Height="70" Width="96"/>
+            <Button Name="btn_exit" Content="Exit" HorizontalAlignment="Left" Margin="475,460,0,0" VerticalAlignment="Top" Height="70" Width="96"/>
 
 
         </Grid>

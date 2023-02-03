@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+using System.Data.SqlClient;
+
 namespace database
 {
     /// <summary>
@@ -22,6 +24,11 @@ namespace database
         public Registration()
         {
             InitializeComponent();
+        }
+
+        private void RegistrationView_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
