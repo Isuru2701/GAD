@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:database"
         mc:Ignorable="d"
         Title="Update" Height="650" Width="671"
-        Name="UpdateClient">
+        Name="UpdateClient"
+        Loaded="UpdateView_Loaded">
     <Grid>
         <Label Content="Client ID" HorizontalAlignment="Left" Margin="48,57,0,0" VerticalAlignment="Top"/>
         <Label Content="Client Name" HorizontalAlignment="Left" Margin="48,123,0,0" VerticalAlignment="Top"/>

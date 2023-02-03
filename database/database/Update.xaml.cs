@@ -33,20 +33,21 @@ namespace database
         private void UpdateView_Loaded(object sender, RoutedEventArgs e)
         {
             con = new SqlConnection("Data Source=ISURU;Initial Catalog=Bank;Integrated Security=True");
+
         }
 
         private void btn_update_Click(object sender, RoutedEventArgs e)
         {
             con.Open();
-            cmd = new SqlCommand("Update Client set Client_Name='"+txt_name.Text+"', " +
+            cmd = new SqlCommand(("Update Client set Client_Name='"+txt_name.Text+"', " +
                 "Client_address='"+txt_address.Text+"', " +
-                "Client_DOB='"+picker_dob.DisplayDate +"', " +
+                "Client_DOB='"+ picker_dob.DisplayDate +"', " +
                 "Client_Age='" + txt_age.Text+ "', " +
-                "Client_TP='" + txt_phone.Text+ "' Where Client_Id=" + txt_id.Text);
+                "Client_TP='" + txt_phone.Text+ "' Where Client_Id='" + txt_id.Text +"'"), con);
 
             if (cmd.ExecuteNonQuery() == 1)
             {
-                MessageBox.Show("Data Entry Successful");
+                MessageBox.Show("Data Update Successful");
             }
             else
             {
