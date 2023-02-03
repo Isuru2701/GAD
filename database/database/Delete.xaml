@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:database"
         mc:Ignorable="d"
-        Title="Delete" Height="450" Width="800"
+        Title="Delete" Height="269" Width="318"
         x:Name="DeleteView">
     <Grid Width="800" Height="440" VerticalAlignment="Top" HorizontalAlignment="Left" >
         <Label Content="Client id" HorizontalAlignment="Left" Margin="78,62,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txt_id" HorizontalAlignment="Left" Margin="153,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Name="btn_delete" Content="Delete" Click="btn_delete_Click" Margin="105,208,595,132" Height="100" Width="100"/>
+        <Button Name="btn_delete" Content="Delete" Click="btn_delete_Click" Margin="163,120,537,220" Height="100" Width="100"/>
     </Grid>
 </Window>

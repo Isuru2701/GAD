@@ -23,5 +23,10 @@ namespace database
         {
             InitializeComponent();
         }
+
+        private void btn_view_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
